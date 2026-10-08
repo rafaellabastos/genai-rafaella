@@ -6,8 +6,7 @@ MODEL = "llama3.2:3b"
 mensagens = []
 
 print("=" * 50)
-print("       MINHA IA LOCAL")
-print("       Llama + Ollama + Python")
+print("       GEN AI RAFA")
 print("=" * 50)
 print("Digite /sair para encerrar.")
 print("Digite /limpar para limpar a conversa.")
@@ -20,7 +19,7 @@ while True:
         continue
 
     if pergunta.lower() == "/sair":
-        print("Até mais!")
+        print("Até mais.")
         break
 
     if pergunta.lower() == "/limpar":

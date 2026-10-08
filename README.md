@@ -1,28 +1,19 @@
 # GEN AI RAFA
 
-Ollama -> Executa o modelo localmente
-Llama 3.2 3B -> Modelo relativamente leve
-Python -> Programa do terminal
+<p>Ollama -> Executa o modelo localmente</p>
+<p>Llama 3.2 3B -> Modelo relativamente leve</p>
+<p>Python -> Programa do terminal</p>
 
+## Passo a Passo
+1. **Instale o Ollama pelo Powershell**
 
-1. Instalar o Ollama
-https://ollama.com/download/windows
+```
+irm https://ollama.com/install.ps1 | iex
+```
 
-Comando: irm https://ollama.com/install.ps1 | iex
-Pelo PowerShell
+<p>Documentação: https://ollama.com/download/windows</p>
 
-2. Executar a IA
+2. **Execute a IA pelo terminal**
+```
 ollama run llama3.2:3b
-
-3. Para sair
-/bye
-
-A primeira versão vai ter:
-
-🤖 Llama 3.2 3B local
-💬 conversa contínua
-🧠 memória da conversa enquanto o programa estiver aberto
-/sair para encerrar
-/limpar para apagar a conversa atual
-interface simples no terminal
-nenhuma chave de API
+```
