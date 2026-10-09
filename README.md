@@ -15,5 +15,5 @@ irm https://ollama.com/install.ps1 | iex
 
 2. **Execute a IA pelo terminal**
 ```
-ollama run llama3.2:3b
+python chat-ia.py
 ```
